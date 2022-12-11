@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+
+#container{
+    width: 80vw;
+    height: 70vh;
+    margin-left: 10vw;
+}
+
+#contained{
+    width: 74vw;
+    height: 60vh;
+    margin-left: 3vw;
+    margin-top: 5vh;
+}
+
+#riga{
+    border-bottom: 1px solid #979796;
+    position: absolute;
+    width:74vw;
+    margin-left: 13vw;
+    top:9vw;
+}
+
+#head{
+    height:16vh;
+}
+
+h1{
+    font-size: 34px;
+    font-weight: bolder;
+    color:#3a87d3;
+}
+
+
+.hd{
+    margin-top: 27px;
+
+}
+
+.albums{
+    margin-top: 20px;
+    float:left;
+    font-size: 34px;
+    font-weight: bolder;
+    border-bottom: #979796;
+}
+.see_all{
+    display: inline-block;
+    color:red; 
+    float:right;
+    color:#3a87d3;
+    font-weight: bolder;
+
+}
+
+#bdy{
+    margin-top: 30px;
+    height: 44vh;
+}
+
+
+/*rows*/
+.uno{
+    height: 22vh;
+
+}
+.due{
+    height: 22vh;
+}
+
+
+/*una img ha 12,3333*/
+.row.uno.a{
+    width: 12.3vw;
+    float:left;
+}
+
+.row.uno.a.img{
+    width: 11.8vw;
+    margin-right: 0.5vw;
+    height:15vh;
+}
+
+.row.uno.a.recenti{
+    width: 11.8vw;
+    margin-right: 0.5vw;
+    margin-top: 1vh;
+    height:3vh;
+}
+
+.row.uno.a.num{
+    width: 11.8vw;
+    margin-right: 0.5vw;
+    height:3vh;
+    color: #979796;
+}
